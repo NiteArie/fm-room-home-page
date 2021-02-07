@@ -6,6 +6,18 @@
 
 ![Desktop Design](./design/desktop-preview.jpg);
 
+> Desktop Design Slide 1
+
+![Desktop Design Slide 1](./design/desktop-design-slide-1.jpg)
+
+> Desktop Design Slide 2
+
+![Desktop Design Slide 2](./design/desktop-design-slide-2.jpg)
+
+> Desktop Design Slide 3
+
+![Desktop Design Slide 3](./design/desktop-design-slide-3.jpg)
+
 > Mobile
 
 ![Mobile Design](./design/mobile-design.jpg);
