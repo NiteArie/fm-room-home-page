@@ -6,4 +6,42 @@
 
 body {
     font-family: "Spartan", sans-serif;
+    font-size: 12px;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 1fr 600px;
+}
+
+.first__info {
+    padding: 100px 60px;
+}
+
+.first__title {
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.first__desc {
+    margin: 30px 0;
+    max-width: 420px;
+    color: hsl(0, 0%, 63%);
+    line-height: 1.5;
+}
+
+.first__cta {
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 8px;
+}
+
+.first__cta::after {
+    margin-left: 20px;
+    content: url("../images/icon-arrow.svg");
+    position: relative;
+    top: 2px;
 }
