@@ -98,10 +98,27 @@ body {
 }
 
 .second__hero {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .second__image {
     width: 100%;
     height: auto;
+}
+
+.second__info {
+    padding: 60px;
+}
+
+.second__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.second__desc {
+    max-width: 520px;
+    margin-top: 20px;
+    color:hsl(0, 0%, 63%);
+    line-height: 1.5;
 }
