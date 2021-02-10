@@ -11,7 +11,7 @@ body {
 
 .first {
     display: grid;
-    grid-template-columns: 1fr 600px;
+    grid-template-columns: 1fr 700px;
 }
 
 /* First Hero */
@@ -20,7 +20,6 @@ body {
     padding: 60px;
     background-image: url("../images/desktop-image-hero-1.jpg");
     background-repeat: no-repeat;
-    
 }
 
 .first__nav {
@@ -45,14 +44,15 @@ body {
 /* First Info */
 
 .first__info {
-    padding: 100px 20px;
+    position: relative;
+    padding: 130px 0 130px 100px;
 }
 
 .first__title {
     max-width: 500px;
     font-size: 40px;
     font-weight: 700;
-    
+    line-height: 1.25;
 }
 
 .first__desc {
@@ -75,4 +75,17 @@ body {
     content: url("../images/icon-arrow.svg");
     position: relative;
     top: 2px;
+}
+
+.first__toggler {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.first__previous,
+.first__forward {
+    padding: 20px 30px;
+    background-color: hsl(0, 0%, 0%);
+    border: 0;
 }
