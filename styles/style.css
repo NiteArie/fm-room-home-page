@@ -11,7 +11,7 @@ body {
 
 .first {
     display: grid;
-    grid-template-columns: 1fr 700px;
+    grid-template-columns: 1fr 582px;
 }
 
 /* First Hero */
@@ -20,6 +20,7 @@ body {
     padding: 60px;
     background-image: url("../images/desktop-image-hero-1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .first__nav {
@@ -45,7 +46,7 @@ body {
 
 .first__info {
     position: relative;
-    padding: 130px 0 130px 100px;
+    padding: 115px 0 115px 100px;
 }
 
 .first__title {
@@ -94,7 +95,7 @@ body {
 
 .second {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
 }
 
 .second__hero {
