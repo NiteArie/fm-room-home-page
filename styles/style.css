@@ -123,3 +123,41 @@ body {
     color:hsl(0, 0%, 63%);
     line-height: 1.5;
 }
+
+/* Responsive Media Queries */
+
+@media only screen and (max-width: 1200px) {
+    /* First */
+
+    .first {
+        grid-template-columns: 1fr;
+    }
+
+    .first__hero {
+        height: 100vh;
+    }
+
+    .first__logo {
+        width: 80px;
+    }
+
+    .first__link {
+        font-size: 16px;
+    }
+
+    .first__title {
+        max-width: none;
+        font-size: 48px;
+    }
+
+    .first__desc {
+        max-width: 700px;
+        font-size: 16px;
+    }
+
+    .first__toggler {
+        top: -70px;
+        right: 0;
+        left: auto;
+    }
+}
