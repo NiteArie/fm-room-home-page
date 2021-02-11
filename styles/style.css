@@ -259,10 +259,6 @@ body {
         z-index: 1;
     }
 
-    .first__menu--close {
-        filter: brightness(0) saturate(100%);
-    }
-
     .first__hero {
         padding: 20px;
         background-image: url("../images/mobile-image-hero-1.jpg");
@@ -281,5 +277,15 @@ body {
     .first__desc {
         font-size: 12px;
         max-width: none;
+    }
+
+    /* Second */
+
+    .second__info {
+        padding: 40px 20px;
+    }
+
+    .second__desc {
+        font-size: 12px;
     }
 }
