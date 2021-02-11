@@ -36,12 +36,31 @@ body {
 
 
 .first__item {
+    position: relative;
     margin-right: 30px;
 }
 
 .first__link {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+}
+
+.first__link::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    width: 0;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    background-color: hsl(0, 0%, 100%);
+    transition: all 200ms ease-out;
+}
+
+.first__item:hover .first__link::after {
+    left: 25%;
+    right: 25%;
+    width: auto;
 }
 
 .first__menu--hidden {
@@ -77,6 +96,11 @@ body {
     letter-spacing: 8px;
 }
 
+.first__cta:hover {
+    color: hsl(0, 0%, 63%);
+}
+
+
 .first__cta::after {
     margin-left: 20px;
     content: url("../images/icon-arrow.svg");
@@ -95,6 +119,12 @@ body {
     padding: 20px 30px;
     background-color: hsl(0, 0%, 0%);
     border: 0;
+    cursor: pointer;
+}
+
+.first__previous:hover,
+.first__forward:hover {
+    background-color: hsl(0, 0%, 27%);
 }
 
 /* Second */
