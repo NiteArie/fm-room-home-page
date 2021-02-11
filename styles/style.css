@@ -24,6 +24,7 @@ body {
 }
 
 .first__nav {
+    position: relative;
     display: flex;
     align-items: center;
 }
@@ -33,6 +34,7 @@ body {
     display: inline-flex;
 }
 
+
 .first__item {
     margin-right: 30px;
 }
@@ -40,6 +42,10 @@ body {
 .first__link {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+}
+
+.first__menu--hidden {
+    display: none;
 }
 
 /* First Info */
@@ -188,10 +194,6 @@ body {
 @media only screen and (max-width: 750px) {
     /* First */
 
-    .first__link {
-        font-size: 14px;
-    }
-
     .first__info {
         padding: 60px;
     }
@@ -218,4 +220,66 @@ body {
         font-size: 14px;
     }
 
+}
+
+@media only screen and (max-width: 560px) {
+    /* First */
+
+    .first__logo {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        order: 1;
+    }
+
+    .first__list {
+        position: fixed;
+        padding: 20px 60px;
+        margin: 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: hsl(0, 0%, 100%);
+        z-index: 1;
+    }
+
+    .first__list--mobile {
+        display: none;
+    }
+
+    .first__link {
+        font-size: 14px;
+        color: hsl(0, 0%, 0%);
+        font-weight: bold;
+    }
+
+    .first__menu--mobile {
+        display: block;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .first__menu--close {
+        filter: brightness(0) saturate(100%);
+    }
+
+    .first__hero {
+        padding: 20px;
+        background-image: url("../images/mobile-image-hero-1.jpg");
+        height: 500px;
+    }
+
+    .first__info {
+        padding: 40px 20px;
+    }
+
+    .first__title {
+        max-width: 350px;
+        font-size: 32px;
+    }
+
+    .first__desc {
+        font-size: 12px;
+        max-width: none;
+    }
 }
