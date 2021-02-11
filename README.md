@@ -1,5 +1,9 @@
 # fm-room-home-page
 
+## Live Preview 
+
+Live Preview: [https://nitearie.github.io/fm-room-home-page/](https://nitearie.github.io/fm-room-home-page/)
+
 ## Design
 
 > Desktop
