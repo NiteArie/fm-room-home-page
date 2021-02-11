@@ -40,9 +40,9 @@ const app = (() => {
         if (
             document.body.clientWidth <= 560
         ) {
-            heroElement.style.backgroundImage = `url(../images/mobile-image-hero-${currentSlideCounter + 1}.jpg)`;
+            heroElement.style.backgroundImage = `url(images/mobile-image-hero-${currentSlideCounter + 1}.jpg)`;
         } else {
-            heroElement.style.backgroundImage = `url(../images/desktop-image-hero-${currentSlideCounter + 1}.jpg)`;
+            heroElement.style.backgroundImage = `url(images/desktop-image-hero-${currentSlideCounter + 1}.jpg)`;
         }
 
         heroTitleElement.textContent = titles[currentSlideCounter];
@@ -59,9 +59,9 @@ const app = (() => {
         if (
             document.body.clientWidth <= 560
         ) {
-            heroElement.style.backgroundImage = `url(../images/mobile-image-hero-${currentSlideCounter + 1}.jpg)`;
+            heroElement.style.backgroundImage = `url(images/mobile-image-hero-${currentSlideCounter + 1}.jpg)`;
         } else {
-            heroElement.style.backgroundImage = `url(../images/desktop-image-hero-${currentSlideCounter + 1}.jpg)`;
+            heroElement.style.backgroundImage = `url(images/desktop-image-hero-${currentSlideCounter + 1}.jpg)`;
         }
 
         heroTitleElement.textContent = titles[currentSlideCounter];
